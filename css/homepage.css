@@ -1,0 +1,153 @@
+@keyframes level_up {
+    0% {opacity:0;}
+    50% {opacity:1;} 
+    100% {opacity:0;}
+}
+* {
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: url("../img/g.gif");
+    background-position: top center;
+    cursor: url("../img/cursor.png"), auto;
+    overflow: hidden;
+
+}
+
+#gameBar
+{
+   text-align: left;
+   width:200px;   
+}
+
+.gameDetails
+{
+    background-color: goldenrod;
+    -webkit-text-fill-color:rgb(4, 5, 75);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: red;
+    font-size: larger;
+    padding-left: 15px;
+    margin: 8px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.gameLogo
+{
+    margin: auto;
+    display: block;
+    width: 440px;
+    height: 130px;
+}
+
+.home_buttons
+{
+    width: 250px;
+    margin:auto;
+
+}
+button
+{
+    border-radius: 10px;
+    background-color: rgb(207, 153, 14);
+    margin: auto;
+    display: block;
+    font-size: 35px;
+    border-width: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-color: red;
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold ;
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(1, 1, 63);
+}
+
+button:hover {
+    border-color:goldenrod;
+    background-color: red ;
+    -webkit-text-fill-color: rgb(1, 1, 63);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:gray;
+    cursor: url("../img/selectgun.png"), pointer;
+
+}
+
+.char:hover
+{
+    background-color:rgba(245, 245, 245, 0.432);
+    cursor: url("img/selectgun.png"), pointer;
+}
+
+#gameOver
+{
+    text-align: center;
+    color:rgb(1, 1, 68);
+}
+
+#gameOverWindow
+{
+    text-align: center;
+    background-color: rgba(211, 210, 243, 0.63);
+    box-sizing: border-box;
+    width: 30%;
+    margin: auto;
+    height: 50%;
+    border: 2px solid red;
+    display: none;
+}
+
+.char
+{
+    display: inline-block;
+    filter: drop-shadow(0 3 0.5rem goldenrod);
+    border-radius: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 30px;
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px ;
+
+}
+
+#choosechar
+{
+    -webkit-text-fill-color: rgb(254, 254, 255);
+    -webkit-text-stroke-width: .5px;
+}
+
+
+#charContainer
+{
+    display: none;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    
+}
+
+
+#winGameWindow
+{
+    text-align: center;
+    color:rgb(1, 1, 68);
+    background-color: rgba(211, 210, 243, 0.63);
+    box-sizing: border-box;
+    width: 30%;
+    margin: auto;
+    height: 50%;
+    border: 2px solid red;
+    display: none;
+}
+

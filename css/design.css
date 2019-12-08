@@ -1,0 +1,53 @@
+body
+{
+    background-image: url("../img/g.gif") ;
+}
+.image
+{
+    float: right ;
+    margin: 1px 15px ;
+    width: 30% ;
+    height: 40% ;
+    padding: 1px 15px ;
+    
+}
+ol li
+{
+    font-family: cursive ;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    margin: 40px ;
+}
+.header
+{
+    color: yellowgreen;
+    font-family:cursive ;
+    font-style:italic;
+}
+
+
+.sentence
+{
+    color: white;
+    font-family: cursive ;
+    font-size: 30px ; 
+}
+.back
+{
+     border-radius: 10px;
+    background-color: rgb(207, 153, 14);
+    margin: auto;
+    display: block;
+    font-size: 35px;
+    border-width: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-color: red;
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold ;
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(1, 1, 63);
+}

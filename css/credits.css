@@ -1,0 +1,118 @@
+@font-face {
+    font-family: para_font;
+    src: url("../fonts/COPRGTB.TTF");
+  }
+
+  @keyframes names_animation {
+    0%
+    {
+        opacity: 0;
+        top : 760px;
+        transform: scale(10,10);
+     }
+    50% 
+    {
+        opacity:1;
+        top : 0;
+        transform: scale(1,1);
+    }
+    98% {
+        opacity: 0;
+        transform: scale(0,0);
+    }
+    100%
+    {
+        opacity: 1;
+    }
+   
+  }
+
+
+  @keyframes button_animation
+   {
+    from  {opacity: 0;}
+    to    { opacity:1;}
+   
+   }
+
+
+
+body
+{
+    background: black;
+    background-image: url("../img/g.gif");
+    background-position: center top;
+    color: white;
+    text-align: center;
+    font-family:para_font;
+    cursor: url("../img/cursor.png"), auto;
+    overflow: hidden;
+
+
+
+}
+
+
+#header
+{
+    margin-top: 5%;
+    font-size: 4em;
+    font-weight: bolder;
+    position: relative;
+    opacity: 0;
+    color: white;
+    -webkit-text-stroke: 1px goldenrod;
+    margin-bottom: 0px;
+  
+}
+
+.developer
+{
+    font-size: 1.6em;
+    font-weight: bold;
+    position: relative;
+    opacity: 0;
+    text-shadow: 0 0 6px rgba(245, 245, 245, 0.486) ;
+
+}
+
+button {
+    
+    border-radius: 10px;
+    background-color: rgb(207, 153, 14);
+    margin: auto;
+    font-size: 28px;
+    border-width: 5px;
+    margin-bottom: 15px;
+    border-color: red;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold ;
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(1, 1, 63);
+    text-decoration: none;
+    display: inline-block;
+    margin: auto;
+    margin-top: 65px;
+    opacity: 0;
+    margin: 20px;
+
+
+  }
+  
+  button:hover
+  {
+    transform: scale(2,2);
+    border-color:goldenrod;
+    background-color: red ;
+    -webkit-text-fill-color: rgb(1, 1, 63);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:gray;
+    cursor: url("../img/selectgun.png"), pointer;
+  
+
+    
+
+  }
+  
