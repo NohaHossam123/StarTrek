@@ -18,7 +18,7 @@ class Rock
         let speedOfRock=0;
         if(level === 1)
         {
-            speedOfRock= 300;
+            speedOfRock= 100;
         }
         else if(level === 2)
         {
